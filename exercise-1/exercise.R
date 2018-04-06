@@ -9,23 +9,28 @@ name_length <- nchar("Emily")
 
 # Print the number of letters in your name
 print(name_length)
+name_length
 
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
-now_doing <- (my_name "is programming!")
+now_doing <- paste("Emily", " is programming!")
+now_doing
 
 # Make the `now_doing` variable upper case
 now_doing <- toupper(now_doing)
+print(now_doing)
 
 ### Bonus
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
 # variables `fav_1` and `fav_2`
-
+fav_1 <- 23
+fav_2 <- 8
 
 # Divide each number by the square root of 201 and save the new value in the
 # original variable
-
+fav_1 <- fav_1 / sqrt(201)
+fav_1
 
 # Create a variable `raw_sum` that is the sum of the two variables. Use the 
 # `sum()` function for practice.
