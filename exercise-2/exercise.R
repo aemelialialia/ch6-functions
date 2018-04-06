@@ -7,12 +7,12 @@ lyric <- "I like to eat apples and bananaas"
 # Use the `substr()` function to extract the 1st through 13th letters from the 
 # `lyric`, and store the result in a variable called `intro`
 # Use `?substr` to see more about this function
-lyric <- substr("I like to eat apples and bananas", 1, 13)
+intro <- substr(lyric, 1, 13)
 
 # Use the `substr()` function to extract the 15th through the last letter of the 
 # `lyric`, and store the result in a variable called `fruits`
 # Hint: use `nchar()` to determine how many total letters there are!
-
+fruits <- substr(lyric, 15, nchar(lyric))
 
 # Use the `gsub()` function to substitute all the "a"s in `fruits` with "ee".
 # Store the result in a variable called `fruits_e`
